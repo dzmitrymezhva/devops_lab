@@ -32,8 +32,8 @@ class PlainText:
         i = 1
         while True:
             log = open("snapshot.txt", "a")
-            print("SNAPSHOT ", i, ": ", datetime.now(), " : CPU load - ",cpu(),
-                  "%, memory usage - ", memory(),"%, virtual memory usage - ",virtual_memory(),
+            print("SNAPSHOT ", i, ": ", datetime.now(), " : CPU load - ", cpu(),
+                  "%, memory usage - ", memory(), "%, virtual memory usage - ", virtual_memory(),
                   "%.", sep="", file=log)
             i += 1
             time.sleep(self.seconds - cpu_i)
