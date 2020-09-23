@@ -1,0 +1,11 @@
+apache_vhosts:
+  - servername: www.example1.com
+    documentroot: /www/domain/1/
+    serveradmin: www-admin1@foo.example.com
+    directorypath: /usr/local/httpd/htdocs/1
+    port: 80
+  - servername: www.example2.com
+    documentroot: /www/domain/2/
+    serveradmin: www-admin2@foo.example.com
+    directorypath: /usr/local/httpd/htdocs/2
+    port: 443
